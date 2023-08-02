@@ -74,6 +74,15 @@
       <router-view/>
     </div>
 
+
+    <footer class="footer">
+      <div
+          class="container d-flex items-center justify-center"
+          style="height: 100%;"
+      >
+        all rights reserved
+      </div>
+    </footer>
   </div>
 </template>
 

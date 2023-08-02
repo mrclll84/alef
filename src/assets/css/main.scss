@@ -5,7 +5,10 @@
 p{
   margin: 0;
 }
-
+#app{
+  min-height: 100vh;
+  position: relative;
+}
 .d-flex{
   display: flex;
 }
@@ -220,4 +223,14 @@ section.preview{
     font-weight: 400;
     line-height: 24px; /* 171.429% */
   }
+}
+
+footer.footer{
+  background: var(--colors-gray-m, #FAFAFA);
+  height: 76px;
+  /* BottomLine */
+  box-shadow: 0px 1px 0px 0px rgba(17, 17, 17, 0.10);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
